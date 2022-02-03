@@ -2,18 +2,6 @@
 const rowCards = document.querySelector("#rowCards");
 const formData = document.querySelector("#formData");
 
-// METODO ANTIGUO
-// const url= "https://rickandmortyapi.com/api/character";
-// fetch(url).then(
-//     function (resp) {
-//         return resp.json();
-// })
-// .then((data) => {
-//     // console.log(data.results);
-//     console.log(data);
-// })
-// .catch((err) => console.error(err));
-
 //llamado a las apis (PETICIONES)
 const getCharacters = async () => {
    try{
@@ -120,3 +108,15 @@ function handleSudmit(event) {
       </div>
       <a href="#" class="mb-3 btn btn-primary">ir a personaje</a>
 </div> */}
+
+// METODO ANTIGUO
+// const url= "https://rickandmortyapi.com/api/character";
+// fetch(url).then(
+//     function (resp) {
+//         return resp.json();
+// })
+// .then((data) => {
+//     // console.log(data.results);
+//     console.log(data);
+// })
+// .catch((err) => console.error(err));
