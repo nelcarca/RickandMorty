@@ -17,43 +17,60 @@ body {
 }
 
 .titulo {
-   padding-top: 3rem;
+   padding-top: 4rem;
    font-size: 60px;
    font-family: 'Comforter', cursive;
    font-weight: 700;
    text-align: center;
-   padding-bottom: 3rem;
+   padding-bottom: 1rem;
    background: #EFE7C2;
 }
 .imgCharacter {
-   width: 350px;   
+   width: 22rem;
+   border-radius: 50%;
+   box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.6);
 }
 .green {
    background-color: rgb(22, 236, 22);
    color: black;
+   height: 13rem;
 }
 
 .red {
    background-color: rgb(243, 8, 8);
    color: white;
+   height: 13rem;
 }
 
 .yellow {
    background-color: #EFE7C2;
    color: black;
+   height: 13rem;
+}
+.cardBody {
+   display: table;
+   display: flex;
+   align-items: center;
 }
 .genderCharacter {
+   display: table-cell;
+   vertical-align: middle;
    background-color: aqua;
+   height: 13rem;
+   padding-top: 15rem;
 }
 .speciesCharacter {
    background-color: blanchedalmond;
+   height: 13rem;
 }
 .originCharacter {
    background-color: royalblue;
    color: white;
+   height: 13rem;
 }
 .locationCharacter {
    background-color: plum;
+   height: 13rem;
 }
 /* .statusCharacter {
 
