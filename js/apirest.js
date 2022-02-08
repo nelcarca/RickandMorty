@@ -35,19 +35,13 @@ const init = async () => {
 }
 init();
 
-// //funcion anonima
-// () => {}
-// // funcion anonima auto invocada
-// (() => {})()
+//creacion de cards
+createCards = (characters) => {
+   console.log(characters);
+   characters.map(jung => cardCharacter(jung));
 
+}
 
-// (async ()=> {
-//    const data = getCharacters();
-//    console.log(data);
-//    console.log(data.results);
-// })();
-// end points
-// npm axios
 
 cardCharacter = (character) => {
    //creamos los elementos html
@@ -80,12 +74,6 @@ cardCharacter = (character) => {
    cardBootstrap.append(imgCard, cardBody, btnByIdCharacter);
    cardBody.append(titleCharacter);
    rowCards.append(cardBootstrap);
-}
-
-//creacion de cards
-createCards = (characters) => {
-   console.log(characters);
-   characters.map(element => cardCharacter(element));
 }
 
 /* llamar al formulario*/

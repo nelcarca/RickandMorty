@@ -14,5 +14,10 @@ body {
 }
 .card {
    width: 18rem; /*16px * 18*/
-   
+}
+
+.titulo {
+   font-size: 35px;
+   font-family: 'Comforter', cursive;
+   font-weight: 700;
 }
