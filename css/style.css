@@ -17,7 +17,44 @@ body {
 }
 
 .titulo {
-   font-size: 35px;
+   padding-top: 3rem;
+   font-size: 60px;
    font-family: 'Comforter', cursive;
    font-weight: 700;
+   text-align: center;
+   padding-bottom: 3rem;
+   background: #EFE7C2;
 }
+.imgCharacter {
+   width: 350px;   
+}
+.green {
+   background-color: rgb(22, 236, 22);
+   color: black;
+}
+
+.red {
+   background-color: rgb(243, 8, 8);
+   color: white;
+}
+
+.yellow {
+   background-color: #EFE7C2;
+   color: black;
+}
+.genderCharacter {
+   background-color: aqua;
+}
+.speciesCharacter {
+   background-color: blanchedalmond;
+}
+.originCharacter {
+   background-color: royalblue;
+   color: white;
+}
+.locationCharacter {
+   background-color: plum;
+}
+/* .statusCharacter {
+
+} */
